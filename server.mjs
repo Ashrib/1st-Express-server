@@ -7,7 +7,7 @@ const port = process.env.PORT || 3000;
 app.get('/', (req, res) => {
 
     console.log("request from ip:", req.ip);
-  res.send("Asharib's server !!\nThanks for giving your ip address, your machine will be hacked soon.")
+  res.send("This is Asharib's server !!")
 })
 
 app.listen(port, () => {
